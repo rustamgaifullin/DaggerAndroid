@@ -8,6 +8,7 @@ import javax.inject.Singleton
 
 @Module
 class ChildActivityRelatedModule {
+
     @Provides
     @Singleton
     fun specialMessage() = SpecialMessage("Special for Child Activity")

@@ -13,4 +13,3 @@ class MainActivityRelatedModule {
     @Singleton
     fun specialMessage() = SpecialMessage("Special for Main Activity")
 }
-
